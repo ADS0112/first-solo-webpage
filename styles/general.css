@@ -28,7 +28,21 @@ body {
   font-size: 3.2rem;
   margin-bottom: 3.2rem;
 
-  color: #3893ba;
+  color: #0e0520;
+}
+.cta-btn:link,
+.cta-btn:visited,
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: inherit;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  color: #0e0520;
+  transition: all 0.3s;
 }
 .container {
   width: 120rem;

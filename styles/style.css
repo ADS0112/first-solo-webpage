@@ -2,14 +2,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #d7d0d4;
+  background-color: #ede8f6;
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
+  border-bottom: 1px solid #c8bae3;
 }
 .logo-icon {
   height: 4.8rem;
+}
+.main-nav {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.cta-btn:link,
+.cta-btn:visited {
+  background-color: #a38dd0;
+}
+.cta-btn:hover,
+.cta-btn:active {
+  box-shadow: inset 0 0 0 3px #a38dd0;
 }
 
 /*********************************************  HERO SECTION **********************************************/
@@ -17,7 +31,8 @@
 .hero-section {
   padding: 9.6rem 0;
   height: 100vh;
-  background-color: #d7d0d4;
+  background-image: linear-gradient(to bottom, #ede8f6, #a38dd0);
+  /* background-color: #ede8f6; */
 }
 .hero {
   /* max-width: 130rem; */
@@ -31,11 +46,11 @@
 .hero-text {
   font-size: 1.8rem;
   line-height: 1.8;
-  color: #fff;
+  color: #0e0520;
 }
 .hero-img-box {
   grid-column: 2 / -1;
-  border: 1px solid black;
+  box-shadow: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.1);
 }
 .hero-img {
   max-width: 100%;
