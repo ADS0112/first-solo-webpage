@@ -62,7 +62,8 @@ HERO SECTION
 
 .hero-section {
   padding: 9.6rem 0;
-  height: 100vh;
+  padding-bottom: 8rem;
+  /* height: 100vh; */
   background-image: linear-gradient(to bottom, #ede8f6, #a38dd0);
 }
 .hero {
