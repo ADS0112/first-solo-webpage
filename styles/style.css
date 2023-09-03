@@ -113,11 +113,11 @@ HERO SECTION
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 1.6rem;
 }
 .m-feature-text {
-  font-size: 1.4rem;
+  display: inline-block;
+  font-size: 1.6rem;
   line-height: 1.8;
   font-weight: 400;
 }
@@ -125,4 +125,8 @@ HERO SECTION
   height: 6.4rem;
   width: 6.4rem;
   color: #471aa0;
+}
+.list-icon {
+  height: 2.4rem;
+  width: 2.4rem;
 }
