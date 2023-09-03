@@ -118,10 +118,10 @@ HERO SECTION
 .m-feature-text {
   display: flex;
   align-items: center;
-  justify-content: center;
   font-size: 1.6rem;
   line-height: 1.8;
   font-weight: 400;
+  gap: 1.2rem;
 }
 .m-icon {
   height: 6.4rem;
