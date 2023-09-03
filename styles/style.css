@@ -106,7 +106,10 @@ HERO SECTION
   background: linear-gradient(to bottom, #ede8f6, #b5a3d9);
   padding: 4.8rem 2.4rem;
   border-radius: 9px;
-  box-shadow: 0 2.4rem 3.2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2.4rem 2.4rem rgba(0, 0, 0, 0.1);
+}
+.card-3 {
+  grid-column: 2/-1;
 }
 .m-feature-list {
   list-style: none;
@@ -114,6 +117,7 @@ HERO SECTION
   flex-direction: column;
   justify-content: center;
   gap: 1.6rem;
+  margin-bottom: 4.8rem;
 }
 .m-feature-text {
   display: flex;
@@ -131,4 +135,41 @@ HERO SECTION
 .list-icon {
   height: 2.4rem;
   width: 2.4rem;
+  color: #471aa0;
+}
+
+/********************************************* 
+HOW IT WORKS
+**********************************************/
+.how-section {
+  padding: 9.6rem 0;
+}
+.how-title {
+  text-align: center;
+  padding: 4.8rem;
+  margin-bottom: 6.4rem;
+}
+.how-grid {
+  align-items: center;
+  justify-items: center;
+  gap: 3.2rem;
+}
+.how-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #471aa0;
+  margin-bottom: 3.2rem;
+}
+.how-text {
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+.service-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3.2rem 6.4rem;
+  border: 3px solid #a38dd0;
+  border-radius: 9px;
 }
